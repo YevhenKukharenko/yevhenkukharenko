@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.portrait_section {
+  height: 892px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul img {
+  width: 453px;
+  height: 679.42px;
+}
+
+.btn-discover {
+  display: block;
+  margin: 0 auto;
+  width: 349px;
+  height: 40px;
+  background: none;
+  border: 1px solid #dc1818;
+  margin-top: 60px;
+  cursor: pointer;
+}

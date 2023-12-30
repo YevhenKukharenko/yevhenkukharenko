@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Michroma&family=Stint+Ultra+Expanded&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  list-style: none;
+}
+
+.App {
+  width: 1400px;
+  margin: 0 auto;
+  font-family: 'Michroma', 'Stint Ultra Expanded' 'Gruppo';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.full-name {
+  font-family: 'Stint Ultra Expanded';
+  font-size: 48px;
+  /* position: absolute;
+  top: 195px;
+  left: 194px;
+} */
+}
+
+.mail {
+  text-align: center;
+  font-family: 'Stind Ultra Expanded';
+  font-size: 20px;
+  /* position: absolute;
+  top: 274px;
+  left: 194px; */
+}
+
+.number {
+  font-family: 'Stind Ultra Expanded';
+  font-size: 20px;
+  /* position: absolute;
+  top: 308px;
+  left: 194px; */
+}
+
+.container-flex-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.base {
+  /* position: relative;
+  top: 556px;
+  left: 345px; */
+  font-family: 'Stint Ultra Expanded';
+  font-size: 246px;
+  margin-top: 220px;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'Stint Ultra Expanded';
+}
+
+.portraits-coolection,
+.street-coolection {
+  font-family: 'Michroma';
+  font-size: 70px;
+  color: #023f0b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.architecture-coolection {
+  font-family: 'Stint Ultra Expanded';
+  font-size: 70px;
+  color: #4f4949;
+  margin: 60px 0 40px 0;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 40px;
+}
+.wrapper-architecture-flex {
+  padding-top: 70px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: min-content min-content;
+}
+
+.wrapper-architecture {
+  flex: 0 0 calc(33.33% - 20px); /* Размер каждой фотографии, с учетом отступов */
+  margin: 10px; /* Промежуток между фотографиями */
+}
+
+.portraits-img-architecture {
+  width: auto;
+}
+.portraits-img {
+  background-position: center; /* Центрирование изображения */
+  background-size: cover; /* Масштабирование до заполнения контейнера */
+}
+
+.collection-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  border: 1px dashed #000;
+  width: 600px;
+  padding-top: 100px;
+  margin-top: 80px;
+}
+
+.collection-img {
+  padding-top: 20px;
+}
+
+.wrapper-collection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image {
+  margin-top: 70px;
+  transition: 500ms ease;
+  cursor: pointer;
+  /*  background-position: center; */ /* Центрирование изображения */
+  /* background-size: cover;  */ /* Масштабирование до заполнения контейнера */
+  object-fit: cover;
+}
+.image:hover {
+  transform: scale(1.02);
+}
+
+.link {
+  /* Ваш файл CSS */
+  color: inherit; /* Передает цвет текста от родительского элемента */
+  text-decoration: none; /* Убирает подчеркивание */
+  outline: none; /* Убирает контур фокуса (для доступности) */
+}
+
+.link--active {
+  position: relative;
+  color: inherit; /* Передает цвет текста от родительского элемента */
+  text-decoration: none; /* Убирает подчеркивание */
+  outline: none; /* Убирает контур фокуса (для доступности) */
+}
+
+.link--active::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 100%;
+
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #023f0b;
+}

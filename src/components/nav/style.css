@@ -1,0 +1,46 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Michroma';
+  font-size: 14px;
+  gap: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  color: black;
+}
+
+.nav-list__mobile {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Michroma';
+  font-size: 14px;
+  gap: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  color: #c83939;
+}
+
+.my-title {
+  text-align: center;
+  border-top: 1px solid #000; /* Граница сверху */
+  border-bottom: 1px solid #000; /* Граница снизу */
+  font-family: 'Michroma';
+  font-size: 40px;
+  padding: 40px 0 40px 0;
+}
+
+.my-title span {
+  font-family: 'Stint Ultra Expanded';
+  font-size: 48px;
+  color: #c83939;
+  margin-left: 5px;
+  margin-right: 5px;
+}

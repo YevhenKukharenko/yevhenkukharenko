@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { galleriesOfImages } from '../components/helpers/ArrayOfImages';
+import { galleriesOfImages } from '../../components/helpers/ArrayOfImages';
 
 const Portraits = () => {
   const imgOfModel = galleriesOfImages[0].img;

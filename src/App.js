@@ -4,13 +4,13 @@ import Contacts from './pages/Contacts';
 import Home from './pages/Home';
 import './styles/main.css';
 import Gallery from './pages/Gallery';
-import Portraits from './pages/Portraits';
+import Portraits from './pages/gallery pages/Portraits';
 import ErfanPhotos from './pages/ErfanPhotos';
 import AllaPhotos from './pages/AllaPhotos';
-import Architecture from './pages/Architecture';
+import Architecture from './pages/gallery pages/Architecture';
 import ArchitecturePhotos from './pages/ArcitecturePhotos';
-import StreetPhotography from './components/street_photography_section/StreetPhotography';
-import StreetArchitecture from './pages/StreetArchitecture';
+
+import StreetPhoto from './pages/gallery pages/StreetPhoto';
 import BerlinStreet from './pages/BerlinStreet';
 import KristinaPhotos from './pages/KristinaPhotos';
 
@@ -25,13 +25,10 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/portraits" element={<Portraits />} />
           <Route path="/gallery/architecture" element={<Architecture />} />
-          <Route
-            path="/gallery/streetphotography"
-            element={<StreetArchitecture />}
-          />
+          <Route path="/gallery/streetphotography" element={<StreetPhoto />} />
 
           <Route
-            path="/gallery/architecture/berlin"
+            path="/gallery/architecture/city-berlin"
             element={<ArchitecturePhotos />}
           />
           <Route path="/gallery/portraits/erfan" element={<ErfanPhotos />} />

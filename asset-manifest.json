@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yevhenkukharenko/static/css/main.6bdf5f66.css",
-    "main.js": "/yevhenkukharenko/static/js/main.298f023c.js",
+    "main.css": "/yevhenkukharenko/static/css/main.df965b21.css",
+    "main.js": "/yevhenkukharenko/static/js/main.a67d2188.js",
     "static/media/khrystina1.jpg": "/yevhenkukharenko/static/media/khrystina1.b1cb14dbd846a3a53866.jpg",
     "static/media/khrystina4.jpg": "/yevhenkukharenko/static/media/khrystina4.9cb962adeaa48173b022.jpg",
     "static/media/khrystina5.jpg": "/yevhenkukharenko/static/media/khrystina5.3228c557f04ab89d3276.jpg",
@@ -55,11 +55,11 @@
     "static/media/4.jpg": "/yevhenkukharenko/static/media/4.0f8923d290f7e26a9760.jpg",
     "static/media/str4.jpg": "/yevhenkukharenko/static/media/str4.189ab15fb1152f997cd9.jpg",
     "index.html": "/yevhenkukharenko/index.html",
-    "main.6bdf5f66.css.map": "/yevhenkukharenko/static/css/main.6bdf5f66.css.map",
-    "main.298f023c.js.map": "/yevhenkukharenko/static/js/main.298f023c.js.map"
+    "main.df965b21.css.map": "/yevhenkukharenko/static/css/main.df965b21.css.map",
+    "main.a67d2188.js.map": "/yevhenkukharenko/static/js/main.a67d2188.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bdf5f66.css",
-    "static/js/main.298f023c.js"
+    "static/css/main.df965b21.css",
+    "static/js/main.a67d2188.js"
   ]
 }
